@@ -1,2 +1,1 @@
-# hobby-site
-Website for my miniature painting hobby
+Website for my miniature painting hobby. Built using Visual Studio Code. Utilizing HTML and CSS.
