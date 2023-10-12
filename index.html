@@ -7,6 +7,7 @@
     <title>Hobby Site Lightbox Caption</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/glightbox.min.css">
+    <script src="https://kit.fontawesome.com/07c3f3bd0a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -14,6 +15,7 @@
     <main class="gallery-page">
         <h1 class="header-1">My Hobby Site</h1>
         <h2 class="header-2">Lightbox Caption Gallery</h2>
+        <div class="github"><a href="https://simmca.github.io/"><i class="fa-brands fa-square-github"></i></a></div>
         <section class="gallery-span">
             <div class="gallery-item w-2"><a href="img\horizontal_13a.jpg" class="glightbox" data-glightbox="title: Sylvaneth 2023"><img src="img\horizontal_13a.jpg"
                 alt="Sylvaneth 2023" class="gallery-img"></a></div>
@@ -51,10 +53,14 @@
                         alt="Gundam 2019" class="gallery-img"></a></div>
         </section>
     </main>
+
+        <!---------------scripts--------------->
+
     <script src="js/glightbox.min.js"></script>
+
     <script type="text/javascript">
         const lightbox = GLightbox({ loop: true, });
     </script>
-</body>
 
+</body>
 </html>
