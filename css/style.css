@@ -27,76 +27,14 @@ img {
     display: block;
 }
 
-/*---------------navbar---------------*/
-
-.header-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    line-height: 2rem;
-    overflow: hidden;
-    margin-bottom: 0.5rem;
-    background-color: #080808;
-    font-family: Helvetica, sans-serif;
-}
-
-.logo,
-.nav-menu {
-    text-transform: uppercase;
-}
-
-.nav-menu {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-item {
-    flex: 1 0 50%;
+.header-1 {
+    color: #fff;
     text-align: center;
 }
 
-.logo a,
-.nav-menu a {
-    display: block;
-    text-decoration: none;
-    letter-spacing: 0.2rem;
-    padding: 0.8rem;
-    color: #fff;
-}
-
-.logo a {
-    font-weight: bold;
-    font-size: 2rem;
-    color: #07b19a;
-}
-
-.logo {
-    margin: 0 auto;
-}
-
-.nav-menu a {
-    letter-spacing: 0.1rem;
-    border-bottom: 1px solid fff;
-    transition: all ease .2s;
-    color: #07b19a;
-}
-
-.nav-menu a:hover {
-    background-color: #080808;
-    color: #fff;
-    transform: none;
-    border-bottom: 1px solid #07b19a;
-    transition: all ease 0.2s;
-}
-
-.nav-menu a:active {
-    transform: scale(0.9);
+.header-2 {
+    color:#07b19a;
+    text-align: center;
 }
 
 /*---------------gallery-setup---------------*/
@@ -159,44 +97,9 @@ img {
     color: #07b19a;
 }
 
-/*---------------tablet---------------*/
-
-@media (min-width: 600px) {
-    .header-nav {
-        line-height: 1.5rem;
-    }
-
-    .nav-menu {
-        width: 100%;
-    }
-
-    .nav-item {
-        flex: 1 0 10%;
-    }
-}
-
 /*---------------desktop---------------*/
 
-@media (min-width: 900px) {
-    .header-nav {
-        justify-content: space-between;
-        padding: 1rem 0;
-        margin: 1rem auto 2rem auto;
-        line-height: 1rem;
-    }
-
-    .nav-menu {
-        width: auto;
-    }
-
-    .nav-item {
-        white-space: nowrap;
-    }
-
-    .logo {
-        margin: 0 0 0 0.3rem;
-    }
-    
+@media (min-width: 900px) { 
     .gallery-span {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     }
